@@ -3,6 +3,30 @@
 //------------------------------------------------------------------------------------------------------------------
 
 
+var function Zoo(){
+
+};
+
+var function Animal(name, legs){
+  self.name = name;
+  self.legs = legs;
+  if self.legs === 2
+};
+
+Animal.prototype = {
+
+  
+  speak: function identify(legs){
+    return "I am a " + 'self.name' + " with " + legs + ".";
+  };
+};
+
+Human.prototype = new Animal(){}
+Monkey.prototype = new Animal(){}
+Kangaroo.prototype = new Animal(){}
+Horse.prototype = new Animal(){}
+Cow.prototype = new Animal(){}
+Centipede.prototype = new Animal(){}
 
 //------------------------------------------------------------------------------------------------------------------
 // DRIVER CODE: Do **NOT** change anything below this point. Your task is to implement code above to make this work.
