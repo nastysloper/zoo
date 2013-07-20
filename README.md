@@ -15,3 +15,5 @@ Object Constructor
 Accessing the array
 
 JavaScript interpolation
+
+This repo is a duplicate of OOJS
